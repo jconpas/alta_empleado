@@ -1,0 +1,124 @@
+/* === PALETA PROFESIONAL ===
+#f5f7fa (gris muy claro)
+#ffffff (blanco)
+#2c3e50 (gris oscuro)
+#3498db (azul elegante)
+#1abc9c (verde acento)
+*/
+
+/* Fondo general */
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    background: #f5f7fa;
+    margin: 0;
+    padding: 40px;
+    color: #2c3e50;
+}
+
+/* Contenedor principal */
+.form-container {
+    max-width: 700px;
+    margin: auto;
+    background: #ffffff;
+    padding: 40px 50px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+    border-top: 6px solid #3498db;
+}
+
+/* Título general */
+.form-container h2 {
+    text-align: center;
+    color: #3498db;
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Labels */
+label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: block;
+    color: #2c3e50;
+}
+
+/* Inputs y selects */
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #dce3eb;
+    border-radius: 8px;
+    font-size: 15px;
+    background: #ffffff;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    transition: all 0.2s ease;
+}
+
+/* Focus */
+input:focus,
+select:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 6px rgba(52,152,219,0.4);
+    outline: none;
+}
+
+/* Botón principal */
+button {
+    width: 100%;
+    padding: 16px;
+    background: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.25s ease, transform 0.1s ease;
+}
+
+/* Hover */
+button:hover {
+    background: #2c80b4;
+    transform: translateY(-2px);
+}
+
+/* Mensajes de error */
+.error {
+    background: #ffe6e6;
+    border: 1px solid #e74c3c;
+    color: #e74c3c;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Resumen */
+.block {
+    background: #f9fbfd;
+    padding: 25px 30px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    border: 1px solid #dce3eb;
+}
+
+.block-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 18px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #3498db;
+    color: #2c3e50;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .form-container {
+        padding: 25px;
+    }
+}
