@@ -16,6 +16,10 @@ alta_empleado/
 │   ├── validaciones.php   # Funciones para validar y sanitizar entradas
 │   └── vistas.php         # Funciones para pintar selects y mostrar errores
 ├── capturas/
-│   └── captura-formulario.png  # Ejemplo de alta correcta
+│   └── recogida_datos.jpg    # Ejemplo de datos recibidos
+    └── error1.jpg            # Ejemplo de error campo vacio
+    └── error2.jpg            # Ejemplo de error email y tlf incorrecto
+    └── error3.jpg            # Ejemplo de error de sede incorrecta
+    └── formulario.jpg        # Ejemplo de formulario
 └── README.md
 ```
