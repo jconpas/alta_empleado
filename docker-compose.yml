@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  webapp:
+    build: .             # Construye la imagen usando el Dockerfile de aquí
+    ports:
+      - "80:80"          # Conecta el puerto 80 de tu Windows con el 80 del contenedor
+    volumes:
+      - .:/var/www/html  # Mapea tus archivos para que si cambias código, se actualice solo
